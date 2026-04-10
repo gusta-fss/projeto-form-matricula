@@ -10,7 +10,7 @@
     <title>Estrelas do Amanhã</title>
 
     <link rel="stylesheet" href="styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -153,9 +153,69 @@
                                     <label for="evening">Tarde</label>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="input-wrapper">
+                            <label for="">Em qual esporte você gostaria de inscrever seu filho?</label>
+
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="football" id="football">
+                                    <img src="assets/icons/football.svg" alt="icone de bola de futebol">
+                                    <label for="morning">Futebol</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="basketball" id="basketball">
+                                    <img src="assets/icons/basketball-02.svg" alt="icone de bola de basquete">
+                                    <label for="morning">Basquete</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="swimming" id="swimming">
+                                    <img src="assets/icons/swimming.svg" alt="icone com pessoa nadando">
+                                    <label for="morning">Natação</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="yoga" id="yoga">
+                                    <img src="assets/icons/yoga-02.svg" alt="icone de pessoa meditando">
+                                    <label for="morning">Yoga</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="volleyball" id="volleyball">
+                                    <img src="assets/icons/volleyball.svg" alt="icone de bola de volley">
+                                    <label for="morning">Volley</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="sport" value="boxing" id="boxing">
+                                    <img src="assets/icons/boxing-glove-01.svg" alt="icone de luva de boxe">
+                                    <label for="morning">Boxe</label>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
+
+                    <div class="terms-wrapper input-wrapper checkbox-wrapper">
+                        <div class="checkbox-image"></div>
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="terms">Declaro que li e concordo com os <span>Termos e Condições</span> e com a
+                            <span>Política de Privacidade</span> da escola Estrela do Amanhã.
+                        </label>
+                    </div>
+
+                    <div class="actions-wrapper">
+                        <button class="btn-secondary" type="button">Salvar respostas</button>
+                        <button class="btn-primary">Fazer matrícula</button>
+                    </div>
                 </form>
             </div>
         </main>
